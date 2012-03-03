@@ -1,0 +1,41 @@
+{
+	"name": "addScroll",
+	"version": "1.0",
+	"title": "jQuery addScroll plugin",
+	"author": {
+		"name": "Laszlo Molnar",
+		"url": "https://github.com/Laza"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "MIT-LICENSE.txt"
+		},
+		{
+			"type": "GPLv2",
+			"url": "GPL-LICENSE.txt"
+		}
+	],
+	"dependencies": {
+		"jquery": "1.7"
+	},
+	"description": "Adds a custom scrollbar to an overflow:hidden element.",
+	"keywords": [
+		"scroll",
+		"scrolling layer",
+		"scrollbar",
+		"touch support"
+	],
+	"homepage": "https://github.com/Laza/jquery-addscroll",
+	"maintainers": [
+		{
+			"name": "Laszlo Molnar",
+			"url": "https://github.com/Laza"
+		}
+	],
+	"files": [
+		"addscroll.js",
+		"addscroll.min.js",
+		"sample.html"
+	]
+}

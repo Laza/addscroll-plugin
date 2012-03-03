@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>alignTo plugin sample</title>
+<style>
+body {
+	margin:0;
+	padding:0;
+	font:12px/1.231 Arial,Helvetica,sans-serif;
+	background-color:#BCB4AE;
+}
+#wrap {
+	margin:10px auto;
+	width:90%;
+	height:280px;
+	overflow:hidden;
+}
+#content {
+	background-color:#fe9;
+}
+#content ul {
+	margin:0;
+	padding:10px;
+}
+#content ul li {
+	float:left;
+	display:inline-block;
+	width:80px;
+	text-align:center;
+	margin:10px;
+	padding:0.2em 0.6em;
+	font-size:5em;
+	background-color:#ffc;
+}	
+</style>
+</head>
+
+<body>
+	<div id="wrap">
+		<div id="content">
+			<ul>
+				<li>A</li><li>B</li><li>C</li><li>D</li><li>E</li><li>F</li><li>G</li><li>H</li><li>I</li><li>J</li><li>K</li><li>L</li><li>M</li><li>N</li><li>O</li><li>P</li><li>Q</li><li>R</li><li>S</li><li>T</li><li>U</li><li>V</li><li>W</li><li>X</li><li>Y</li><li>Z</li>
+			</ul>
+			<div style="clear:both;"></div>
+		</div>
+	</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js?ver=1.7.1"></script>
+<script src="addscroll.js"></script>
+<script>
+	$(document).ready(function() {
+		$('#content').addScroll();
+	});
+</script>
+</body>
+</html>
